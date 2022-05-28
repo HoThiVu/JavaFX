@@ -18,8 +18,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class ProjectJavaFXHTV extends Application {
-
-
     List<Employee> employees = new ArrayList<>();
 //
     public static void main(String[] args) {
@@ -82,7 +80,6 @@ public class ProjectJavaFXHTV extends Application {
         rootGridPane.add(labelDanToc, 2, 2);
         rootGridPane.add(tfDanToc,3,2);
 
-
         tfMaEmployee.setMaxWidth(200);
 //       Button btnInsertEmployee = new Button("Lưu");
         btnADD.setMaxWidth(200);
@@ -112,8 +109,6 @@ public class ProjectJavaFXHTV extends Application {
 //            Button btnExit = new Button("Exit");
             hbButtons.getChildren().addAll(btnEdit, btnDelete);
 
-
-
             Label lbEmployeeMaNV = new Label(employee.getMaNV());
 //            lbEmployeeMaNV.setText(" "+employee.getMaNV());
             Label lbEmployeeHoTen = new Label(employee.getHoTen());
@@ -133,7 +128,6 @@ public class ProjectJavaFXHTV extends Application {
 //            Button btnDelete = new Button("DELETE");
 
             lbEmployeeMaNV.setMinWidth(20);
-
             lbEmployeeHoTen.setMinWidth(130);
             lbEmployeeNgaySinh.setMinWidth(150);
             lbEmployeeNoiSinh.setMinWidth(100);
