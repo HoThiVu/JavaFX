@@ -1,9 +1,7 @@
 package com.example.demo1.Model;
-
 import java.sql.Connection;
 import java.sql.ResultSet;
 import java.sql.Statement;
-
 public class Employee {
     private String maNV;
     private String hoTen;
@@ -49,7 +47,6 @@ public class Employee {
     public String getQuocTich() {
         return quocTich;
     }
-
 
 //-----
     public void setDanToc(String danToc) {

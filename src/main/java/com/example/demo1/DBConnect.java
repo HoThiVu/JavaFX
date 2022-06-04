@@ -19,7 +19,7 @@ public class DBConnect {
             connection = DriverManager.getConnection(URL, USERNAME, PASSWORD);
             System.out.println("Connect successfully!!!");
             Statement st = ((Connection) connection).createStatement();
-//            MYSQL QUERY
+//   MYSQL QUERY
             String sql = "select * from thongtinnhanvien";
             ResultSet rs = st.executeQuery(sql);
 
@@ -38,7 +38,7 @@ public class DBConnect {
             }
         } catch (SQLException e) {
             connection = null;
-            System.out.println(e);
+            System.out.println(e +"ket noi khong thanh cong");
         }
         return employees;
     }
